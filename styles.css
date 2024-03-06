@@ -1,0 +1,77 @@
+/* Basic styles */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(11, 14, 36);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: black;
+  margin-bottom: 18px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Styling links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  header {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+}
